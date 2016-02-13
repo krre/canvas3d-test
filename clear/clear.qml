@@ -16,6 +16,6 @@ Window {
 
         onInitializeGL: gl = GL.initializeGL(canvas3d)
         onResizeGL: GL.resizeGL(canvas3d, gl)
-        onPaintGL: GL.paintGL(gl)
+        onPaintGL: GL.clearGL(gl)
     }
 }
