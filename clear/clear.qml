@@ -4,4 +4,6 @@ import QtCanvas3D 1.1
 import "../lib"
 import "../lib/gl.js" as GL
 
-CanvasWindow {}
+CanvasWindow {
+    bgColor: "green"
+}
