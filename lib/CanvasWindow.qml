@@ -26,8 +26,11 @@ Window {
 
         onInitializeGL: {
             gl = GL.initializeGL(canvas3d)
-            if (!GL.initShaders(gl, getShaderSources())) {
-                print("Failed to initialize shaders")
+            var shaderSources = getShaderSources()
+            if (shaderSources) {
+                if (!GL.initShaders(gl, shaderSources)) {
+                    print("Failed to initialize shaders")
+                }
             }
             init()
         }
