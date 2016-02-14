@@ -23,7 +23,6 @@ Window {
     Canvas3D {
         id: canvas3d
         anchors.fill: parent
-        renderOnDemand: true
 
         onInitializeGL: {
             gl = GL.initializeGL(canvas3d)
