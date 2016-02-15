@@ -8,6 +8,7 @@ import "mouseDot.js" as MouseDot
 CanvasWindow {
     property var points: []
     property var a_Position
+    title: "MouseDot"
 
     // override
     function getShaderSources() {

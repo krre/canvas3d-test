@@ -5,5 +5,6 @@ import "../lib"
 import "../lib/gl.js" as GL
 
 CanvasWindow {
+    title: "Clear"
     bgColor: "green"
 }

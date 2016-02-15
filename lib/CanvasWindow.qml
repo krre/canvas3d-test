@@ -7,6 +7,7 @@ Window {
     default property alias data: canvas3d.data
     property var gl
     property color bgColor: Qt.rgba(0.0, 0.0, 0.0, 1.0)
+    title: "Canvas3D-test"
     visible: true
     width: 500
     height: 500

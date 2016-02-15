@@ -6,6 +6,7 @@ import "../lib/gl.js" as GL
 import "dot.js" as Dot
 
 CanvasWindow {
+    title: "Dot"
 
     // override
     function getShaderSources() {

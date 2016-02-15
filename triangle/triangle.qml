@@ -9,6 +9,7 @@ CanvasWindow {
     property var points: []
     property var a_Position
     property int n: 3
+    title: "Triangle"
 
     // override
     function getShaderSources() {
